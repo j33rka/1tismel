@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Магазин 1000 мелочей</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <nav>
+            <a href="#main">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="#advantages">Преимущества</a>
+            <a href="#contacts">Контакты и адрес</a>
+        </nav>
+    </div>
+</header>
+<div class="gradient">
+</div>
+
+<main id="main">
+    <div data-aos="fade-up" class="container">
+
+        <!-- главная -->
+        <section class="main-inner">
+            <h1>Магазин 1000 мелочей</h1>
+            <p class="subtitle">Всё для дома, ремонта и повседневных нужд</p>
+
+            <div data-aos="zoom-in-up" class="main-buttons">
+                <a href="catalog.html" class="btn">Каталог</a>
+                <a href="#contacts" class="btn btn-outline">Наш адрес</a>
+            </div>
+        </section>
+
+        <!-- о нас -->
+        <section class="about" id="about">
+            <div data-aos="fade-up" class="about">
+            <h2>О нас</h2>
+            <p>
+                Магазин <strong>«1000 мелочей»</strong> - это удобное место, где вы найдёте
+                всё необходимое для дома, ремонта и хозяйства в одном месте.</p>
+            <p>Мы предлагаем широкий ассортимент товаров по доступным ценам - от бытовых мелочей до полезных инструментов, игрушек и аксессуаров.</p>
+            </div>
+        </section>
+
+        <!-- ссылка на каталог -->
+        <section data-aos="fade-up" class="catalog-link" id="catalog">
+            <div class="catalog-link">
+            <a href="catalog.html">Каталог</a>
+            </div>
+        </section>
+
+        <!-- преимущества -->
+        <section class="advantages" id="advantages">
+            <div data-aos="fade-up" class="advantages">
+            <h2>Почему выбирают нас</h2>
+            <ul>
+                <li>Большой ассортимент товаров</li>
+                <li>Доступные цены</li>
+                <li>Удобное расположение</li>
+                <li>Постоянное обновление товаров</li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- контактная инфа, адрес и время --> 
+         <section class="contacts" id="contacts"> 
+            <div data-aos="fade-up" class="contact"> 
+                <h2>Контакты и адрес</h2> 
+                
+                <div class="contacts-box"> 
+
+                    <!-- карта --> 
+                    <div class="contacts-map"> 
+                        <a href="assets/images/map.png" target="_blank">
+                        <img src="assets/images/map.png" alt="карта"> </a>
+                    </div>
+                    <!-- правая колонка контактов --> 
+                     <div class="contacts-right"> 
+
+                        <!-- информация в таблице --> 
+                         <div class="contacts-card"> 
+                            <p><strong>Контакты:</strong>??????</p> 
+                            <p><strong>Адрес:</strong> г. Волгоград, ул. Волгоградская 166Б</p> 
+                            <p><strong>Время работы:</strong> ежедневно с 0:00 до 0:00</p> 
+                        </div> 
+                    </div> 
+                </div> 
+            </section>
+
+
+    </div>
+</main>
+
+<!-- низ -->
+<footer class="footer">
+    <div class="container footer-inner">
+
+        <div class="footer-logo">
+            © Магазин «1000 мелочей»
+        </div>
+
+        <nav class="footer-nav">
+            <a href="#main">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="#advantages">Преимущества</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+
+    </div>
+</footer>
+
+<!-- скрипт для анимаций -->
+<script>
+AOS.init({
+    delay: 500,
+    duration: 1500,
+    offset: 200,
+    once: true,
+});
+</script>
+
+</body>
+</html>
